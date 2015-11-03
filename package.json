@@ -1,0 +1,15 @@
+{
+  "name": "proxy-experiment",
+  "version": "0.0.1",
+  "description": "",
+  "main": "proxy.js",
+  "scripts": {
+    "start": "babel-node --harmony_proxies example.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Ditson <jesse.ditson@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "harmony-reflect": "^1.4.2"
+  }
+}
